@@ -1,0 +1,12 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    border-spacing: 0; 
+    /* box-sizing: border-box; */ 
+    box-sizing: content-box; 
+} 
+
+body { 
+    font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sansSerif; 
+}
