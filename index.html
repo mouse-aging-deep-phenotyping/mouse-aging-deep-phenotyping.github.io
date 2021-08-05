@@ -3,7 +3,7 @@
 <title>Mouse Aging Deep Phenotyping</title>
 
 <head>
-    
+
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vesper+Libre">
     <meta charset="utf-8">
@@ -12,13 +12,31 @@
         .error {
             color: red;
         }
-      </style>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+    </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
 </head>
 
 <body>
+    <h1>Introduction</h1>
+    <p>Aging of biological systems is pervasive and affects almost all existing organisms. Importantly, aging
+        constitutes a major risk factor for a wide variety of disorders, such as neurodegenerative diseases (e.g.,
+        Alzheimer’s disease, Parkinson’s disease), cardiovascular diseases (e.g., myocardial infarct, stroke) and
+        cancers. Therapeutic targeting of the aging process may hence represent an innovative approach for the
+        development of treatments that are broadly effective against a range of aging-associated diseases.</p>
+    </br>
+    <p>Previous work has identified a number of genetic (e.g., loss-of-function mutation in the mTOR gene), dietary
+        (e.g., dietary restriction) and pharmacological (e.g., the FDA-approved mTOR inhibitor rapamycin) interventions
+        that significantly extend natural lifespan in laboratory mice, suggesting that these manipulations might
+        potentially interact with the aging process. In previous work, we have examined the effects of some of these
+        interventions on age-related changes across hundreds of phenotypes in mice (Neff et al. 2013; Ehninger et al.,
+        2014; Xie et al., 2017). Our findings revealed that these treatments indeed counteracted some (but not all)
+        age-dependent phenotypic changes. Interestingly, short-term treatment of young animals often had similar effects
+        on those phenotypes, suggesting that these ‘anti-aging’ treatments may work by shifting the baseline levels of
+        these phenotypes, rather than by altering the rate of age-dependent phenotypic change.</p>
+    <h1>Embedded DataFrame</h1>
+    <iframe src="stocks.html"></iframe>
     <h1>Interactive Altair Chart</h1>
     <div id="vis"></div>
     <script>
